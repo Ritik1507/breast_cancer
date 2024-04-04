@@ -1,0 +1,15 @@
+COLUMNS:
+  Sample code number: int64  
+  Clump thickness: int64  
+  Uniformity of cell size: int64  
+  Uniformity of cell shape: int64  
+  Marginaln adhesion: int64  
+  Single epithelial cell size: int64  
+  Bare nuclei: float64
+  Bland chromatin: int64  
+  Normal nucleoli: int64  
+  Mitoses: int64  
+  
+
+TARGET_COLUMN:
+ name :  Class
