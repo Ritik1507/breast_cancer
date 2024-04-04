@@ -1,15 +1,16 @@
 COLUMNS:
-  Sample code number: float64  
-  Clump thickness: float64   
-  Uniformity of cell size: float64   
-  Uniformity of cell shape: float64    
-  Marginaln adhesion: float64    
-  Single epithelial cell size: float64   
+  Sample code number: int64 
+  Clump thickness: int64   
+  Uniformity of cell size: int64   
+  Uniformity of cell shape: int64    
+  Marginaln adhesion: int64    
+  Single epithelial cell size: int64   
   Bare nuclei: float64  
-  Bland chromatin: float64    
-  Normal nucleoli: float64    
-  Mitoses: float64    
-  class : int64
+  Bland chromatin: int64    
+  Normal nucleoli: int64    
+  Mitoses: int64    
+  Class : int64
+
 
 TARGET_COLUMN:
- name :  Class
+  name :  Class
