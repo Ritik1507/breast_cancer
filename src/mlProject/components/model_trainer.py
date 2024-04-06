@@ -23,7 +23,7 @@ class ModelTrainer:
         test_y = test_data[[self.config.target_column]]
 
 
-        lr = XGBClassifier(booster=self.config.booster, eta=self.config.eta,max_depth = self.config.max_depth,subsample = self.config.subsample , random_state=42)
-        lr.fit(train_x, train_y)
+        xgb = XGBClassifier(booster=self.config.booster, eta=self.config.eta,max_depth = self.config.max_depth,subsample = self.config.subsample , random_state=42)
+        xgb.fit(train_x, train_y)
 
-        joblib.dump(lr, os.path.join(self.config.root_dir, self.config.model_name))
+        joblib.dump(xgb, os.path.join(self.config.root_dir, self.config.model_name))

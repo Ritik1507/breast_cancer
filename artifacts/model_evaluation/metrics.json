@@ -1,0 +1,15 @@
+{
+    "confusion_matrix": [
+        [
+            108,
+            2
+        ],
+        [
+            3,
+            62
+        ]
+    ],
+    "accuracy_score": 0.9714285714285714,
+    "mean accuracy": 95.22496371552973,
+    "standard deviation": 0.973235802477809
+}
