@@ -27,7 +27,7 @@ def index():
             #  reading the inputs given by the user
             Clump_thickness =float(request.form['Clump thickness'])
             Uniformity_of_cell_size =float(request.form['Uniformity of cell size'])
-            cUniformity_of_cell_shape =float(request.form['Uniformity of cell shape'])
+            Uniformity_of_cell_shape =float(request.form['Uniformity of cell shape'])
             Marginalnadhesion =float(request.form['Marginaln adhesion'])
             Single_epithelial_cell_size =float(request.form['Single epithelial cell size'])
             Bare_nuclei=float(request.form['Bare nuclei'])
@@ -37,8 +37,8 @@ def index():
             
        
          
-            data = [Clump_thickness,Uniformity_of_cell_size,cUniformity_of_cell_shape,Marginalnadhesion,Single_epithelial_cell_size,Bare_nuclei,Bland_chromatin,Normal_nucleoli,Mitoses]
-            data = np.array(data).reshape(1, 11)
+            data = [Clump_thickness,Uniformity_of_cell_size,Uniformity_of_cell_shape,Marginalnadhesion,Single_epithelial_cell_size,Bare_nuclei,Bland_chromatin,Normal_nucleoli,Mitoses]
+            data = np.array(data).reshape(1, 9)
             
             obj = PredictionPipeline()
             predict = obj.predict(data)

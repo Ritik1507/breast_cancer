@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 from mlProject import logger
-from xgboost import XGBClassifier
+from xgboost import XGBClassifier # type: ignore
 import joblib
 from mlProject.entity.config_entity import ModelTrainerConfig
 
