@@ -1,5 +1,4 @@
 COLUMNS:
-  Sample code number: int64 
   Clump thickness: int64   
   Uniformity of cell size: int64   
   Uniformity of cell shape: int64    
