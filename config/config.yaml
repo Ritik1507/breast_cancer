@@ -3,19 +3,19 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: https://github.com/Ritik1507/breast-cancer-ML/raw/main/breast_cancer_data.zip
+  source_URL: https://github.com/Ritik1507/breast-cancer-ML/raw/main/breast_cancer_dataset.zip
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
 
 data_validation:
   root_dir: artifacts/data_validation
-  unzip_data_dir: artifacts/data_ingestion/breast_cancer_data.csv
+  unzip_data_dir: artifacts/data_ingestion/breast_cancer_dataset.csv
   STATUS_FILE: artifacts/data_validation/status.txt
 
 
 data_transformation:
   root_dir: artifacts/data_transformation
-  data_path: artifacts/data_ingestion/breast_cancer_data.csv
+  data_path: artifacts/data_ingestion/breast_cancer_dataset.csv
 
 
 model_trainer:

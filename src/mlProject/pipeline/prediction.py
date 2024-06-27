@@ -13,4 +13,7 @@ class PredictionPipeline:
     def predict(self, data):
         prediction = self.model.predict(data)
 
-        return prediction
+        if(prediction == 0):
+          return "Non Cancerous"
+        else:
+            return "Cancerous"
