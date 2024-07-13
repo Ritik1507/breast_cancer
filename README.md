@@ -109,7 +109,7 @@ Now open up your local host 0.0.0.0:8080
 
     AWS_REGION = ap-southeast-2
 
-    AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+    AWS_ECR_LOGIN_URI = demo>>  
 
     ECR_REPOSITORY_NAME = simple-app
 
@@ -118,4 +118,3 @@ Now open up your local host 0.0.0.0:8080
 
 
 
- git config --global user.name "entbappy"
